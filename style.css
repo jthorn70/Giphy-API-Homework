@@ -1,0 +1,46 @@
+html body{
+    background: -webkit-gradient(linear, left top, left bottom, from(#310138), to(#a071a7)) fixed;
+}
+
+#title{
+    background-color: #A071A7;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+#buttons-view{
+    background-color: #83478B;
+    padding: 10px;
+    text-align: center;
+}
+
+#animal-form{
+    background-color: #4C0F54;
+    padding: 10px;
+    border-radius: 25px;
+    border-radius: 0px 0px 25px 25px ;}
+
+#gifs-appear-here{
+    background-color: #310138;
+    justify-content: center;
+    border-radius: 25px 25px 25px 25px;}
+#label{
+    color: #A071A7;
+
+}
+
+#add-animal{
+    margin-left: 139px;
+}
+
+button{
+    background-color: grey;
+    border-color: #34063A;
+}
+
+p{
+    color: #A071A7;
+}
