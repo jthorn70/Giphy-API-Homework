@@ -1,4 +1,4 @@
-var animals = ["snakes", "cats", "dogs", "birds","rabbit","lizard","danny devito","dank memes"];
+var animals = ["snakes", "cats", "dogs", "birds","rabbit","lizard","betty white","memes"];
 
 function renderButtons() {
   $("#buttons-view").empty();
