@@ -44,11 +44,11 @@ $(document).on("click",".animal", function(){
 
         for (var i = 0; i <results.length; i++){
             var animalDiv = $("<div>");
-            var p = $("<p>").text("Rating: " + results[i].rating);
+            var p = $("<p>").text("Rating: " + results[i].rating );
             var animalImage = $("<img>");
             animalImage.attr("src", results[i].images.fixed_height.url);
-            animalDiv.append(p);
             animalDiv.append(animalImage);
+            animalDiv.append(p);
             $("#gifs-appear-here").prepend(animalDiv)
         }
     })
